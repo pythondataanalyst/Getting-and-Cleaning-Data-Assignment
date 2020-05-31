@@ -1,0 +1,30 @@
+---
+title: "Getting-and-Cleaning-Data-Week-4-Assignment"
+output: html_document
+---
+
+This project includes four files: README.md, codebook.md, run_analysis.R, tidy_data.txt
+
+Followings are done:
+
+1- Download dataset to my working directory and unzip
+
+2- Load datasets :activity_labels.txt, features.txt, X_train.txt, y_train.txt, subject_train.txt, X_test.txt, y_test.txt, subject_test.txt
+
+3- Merge the X_train.txt with X_test.txt to make a new dataset called **x_total** 
+
+4- Merge the y_train.txt with y_test.txt to make a new dataset called **y_total** 
+
+5- Merge the subject_train.txt with subject_test.txt to make a new dataset called **sub_total** 
+
+6- Merge the new datasets sub_total ,x_total ,y_total to make a full dataset called **merg_data**
+
+7- Extract only the mean and standard deviation measurements
+
+8- Uses descriptive activity names to name the activities in the data set
+
+9- Appropriately labels the data set with descriptive variable names
+
+10 -From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+11- Export final tidy dataset
